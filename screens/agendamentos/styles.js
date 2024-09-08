@@ -55,7 +55,7 @@ export default StyleSheet.create({
         backgroundColor: 'rgba(0,0,0,0.5)',
       },
       modalContent: {
-        width: '80%',
+        width: '90%',
         backgroundColor: 'white',
         padding: 20,
         borderRadius: 10,

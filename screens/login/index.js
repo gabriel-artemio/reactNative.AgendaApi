@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, Pressable } from 'react-native';
 import styles from './styles';
 
 export default function App({ navigation }) {
@@ -29,9 +29,9 @@ export default function App({ navigation }) {
         onChangeText={setPassword}
         secureTextEntry
       />
-      <TouchableOpacity style={styles.btnLogin} onPress={handleLogin}>
+      <Pressable style={styles.btnLogin} onPress={handleLogin}>
         <Text style={styles.btnLoginText}>Entrar</Text>
-      </TouchableOpacity>
+      </Pressable>
       <Text style={styles.mutted}>Desenvolvido por Gabriel Artemio</Text>
     </View>
   );
